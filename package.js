@@ -8,19 +8,8 @@ Package.on_use(function (api) {
 
 	// Files to load in Client only.
 	api.add_files([
-		// AngularJS Files
-		'lib/angular/angular.js',
-		'lib/angular/angular-route.js',
-		// HammerJS Files
-		'lib/hammer/hammer.js',
-		// Select2 Files
-		'lib/select2/select2.js',
-		'lib/select2/ui-select2.js',
-		'lib/select2/select2.css',
-		'lib/select2/select2-bootstrap.css',
-		'lib/select2/select2.png',
-		'lib/select2/select2x2.png',
-		'lib/select2/select2-spinner.gif',
+		// NOTE: We removed included libs in favor of using meteor-bower to import them.
+
 		// Module Files
 		'modules/ngMeteor.touch.js',
 		'modules/ngMeteor.collections.js',
