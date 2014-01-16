@@ -8,13 +8,15 @@ Package.on_use(function (api) {
 
 	// Files to load in Client only.
 	api.add_files([
-		// NOTE: We removed included libs in favor of using meteor-bower to import them.
+		// NOTE:
+		// - We removed included libs in favor of using meteor-bower to import them.
+		// - Also disabled some functionality, to re-enable uncomment below and in ngMeteor.js
 
 		// Module Files
-		'modules/ngMeteor.touch.js',
+		// 'modules/ngMeteor.touch.js',
 		'modules/ngMeteor.collections.js',
-		'modules/ngMeteor.template.js',
-		'modules/ngMeteor.router.js',
+		// 'modules/ngMeteor.template.js',
+		// 'modules/ngMeteor.router.js',
 		// Finally load ngMeteor File
 		'ngMeteor.js'
 	], 'client');
