@@ -12,5 +12,5 @@ ngMeteor.config(['$interpolateProvider',
 
 // Manual initilisation of the ngMeteor module
 angular.element(document).ready(function() {
-	angular.bootstrap(document, ['ngMeteor', 'angled']);
+	angular.bootstrap(document, ['ngMeteor', 'angled', 'ui.bootstrap']);
 });
